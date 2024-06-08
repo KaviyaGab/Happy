@@ -17,5 +17,5 @@ test = pd.DataFrame({'infoavail':infoavail,
 
 if st.button("submit"):
  import pickle
- model = pickle.load(open("C:\\Users\\Dell\\Downloads\\Happy2.pkl",'rb'))
+ model = pickle.load(open("Happy2.pkl",'rb'))
  st.write(model.predict(test))
